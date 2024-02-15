@@ -1,15 +1,14 @@
 {
   "name": "code_with_backend",
   "version": "1.0.0",
-  "description": "BrifBrief ef Summary about backend ",
+  "description": "code about backecode about back-end -end ",
   "main": "index.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "node",
-    "prince"
+    "node"
   ],
-  "author": "princemishra",
+  "author": "prince mishra",
   "license": "ISC"
 }
