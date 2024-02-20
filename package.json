@@ -10,5 +10,9 @@
     "node"
   ],
   "author": "prince mishra",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2"
+  }
 }
