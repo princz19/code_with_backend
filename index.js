@@ -20,7 +20,7 @@ const port = 3000
     "received_events_url": "https://api.github.com/users/hiteshchoudhary/received_events",
     "type": "User",
     "site_admin": false,
-    "name": "Hitesh Choudhary",
+    "name": "PrinceMishra",
     "company": null,
     "blog": "https://www.youtube.com/c/HiteshChoudharydotcom",
     "location": "India",
