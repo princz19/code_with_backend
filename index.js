@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
- const jdata = {
+ const data = {
     "login": "hiteshchoudhary",
     "id": 11613311,
     "node_id": "MDQ6VXNlcjExNjEzMzEx",
@@ -35,36 +35,13 @@ const port = 3000
     "created_at": "2015-03-23T13:03:25Z",
     "updated_at": "2024-02-12T12:11:50Z"
   }
-
-
-
-const jdata = {
-    "index": NumberInt(0),
-    "name": "Aurelia Gonzales",
-    "isActive": false,
-    "registered": ISODate("2015-02-11T04:22:39+0000"),
-    "age": NumberInt(20),
-    "gender": "female",
-    "eyeColor": "green",
-    "favoriteFruit": "banana",
-    "company": {
-      "title": "YURTURE",
-      "email": "aureliagonzales@yurture.com",
-      "phone": "+1 (940) 501-3963",
-      "location": {
-        "country": "USA",
-        "address": "694 Hewes Street"
-      }
-    },
-    "tags": [
-      "
-/*
+ /*
 app.get('/', (req, res) => {
   res.send('Hello World!')
   })
   */
   app.get('/',(req,res) => {
-   res.send(jdata)    
+   res.json(data)    
   })
 
   app.listen(port, () => {
