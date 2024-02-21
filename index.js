@@ -10,6 +10,6 @@ app.get('/', (req, res) => {
 app.get('/instegram',(req,res)=>{
      res.send("@beingsprince")
 })
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT), () => {
   console.log(`Example app listening on port ${port}`)
 })
