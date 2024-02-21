@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 3000
  const data = {
-    "login": "hiteshchoudhary",
+    "login": "PrinceMishra",
     "id": 11613311,
     "node_id": "MDQ6VXNlcjExNjEzMzEx",
     "avatar_url": "https://avatars.githubusercontent.com/u/11613311?v=4",
@@ -35,11 +35,11 @@ const port = 3000
     "created_at": "2015-03-23T13:03:25Z",
     "updated_at": "2024-02-12T12:11:50Z"
   }
- /*
+ 
 app.get('/', (req, res) => {
   res.send('Hello World!')
   })
-  */
+  
   app.get('/',(req,res) => {
    res.json(data)    
   })
